@@ -1,0 +1,8 @@
+body {
+  cursor: url("source-files/papyrus-head-1.png"), auto;
+  background-color: rgb(208, 226, 128);
+  margin: 0;
+}
+a:active, a:hover {
+  cursor: url("source-files/papyrus-head-2.png"), auto;
+}

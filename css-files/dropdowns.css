@@ -1,0 +1,45 @@
+
+
+.dropdowns {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 1rem 2rem;
+  align-self: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + .25rem);
+  background-color: rgb(168, 190, 68);
+  padding: .75rem;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+  opacity: 0;
+}
+
+
+.produce, .herbs, .jewelry {
+  border: none;
+  font-size: 1.5rem;
+  background-color: rgb(153, 160, 51);
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.produce:hover, .herbs:hover,  .jewelry:hover {
+  background-color: rgb(138, 148, 47)
+}
+
+
+.banner {
+
+}
+
+.banner-image {
+  margin-top: 2rem;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
